@@ -1,0 +1,53 @@
+header {
+    background-image: url(../images/events-heavenly-header.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+
+header h1 {
+    font-size: 70px;
+}
+
+#navSide {
+    width: 15%;
+    display: none;
+}
+
+.navs-hover {
+    transition-property: color;
+    transition-duration: .5s;
+}
+
+.navs-hover:hover {
+    color: #D62E33 !important;
+}
+.icons:hover{
+    background-color: #D62E33 !important;
+    color: #fff !important;
+
+}
+
+.open-icon {
+    cursor: pointer;
+    position: absolute;
+    transition: left 1s;
+    top: 50vh;
+}
+#singerFourText,#singerThreeText,#singerTwoText{
+    display: none;
+}
+section .join {
+    background-image: url(../images/invitation-2508607__340.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 330px;
+
+}
+
+section .overlay-1 {
+    height: 330px;
+
+}
+#singerOne,#singerTwo,#singerThree,#singerFour{
+    cursor: pointer;
+}
